@@ -4,7 +4,7 @@ import { motion, useMotionValue, useSpring, useTransform } from "motion/react";
 import { useRef, useSyncExternalStore, type ReactNode } from "react";
 import Image from "next/image"; // Added missing import
 
-import { DottedPattern } from "@/components/ui/dotted-pattern";
+
 
 // 1. Fixed Type Definition
 type Polaroid = {

@@ -28,7 +28,7 @@ const CHIPS: Chip[] = [
   { label: "GitHub", slug: "github", bg: "#181717", fg: "#ffffff" },
   { label: "Vercel", slug: "vercel", bg: "#0a0a0a", fg: "#ffffff" },
   { label: "Tailwind CSS", slug: "tailwindcss", bg: "#2BBCF5", fg: "#ffffff" },
-  { label: "Svelt", sluf: "svelt", bh:"#0a0a0a", fg: "#ffffff" },
+  { label: "Svelt", slug: "svelt", bg:"#0a0a0a", fg: "#ffffff" },
 ];
 
 const CHIP_RADIUS = 14;
