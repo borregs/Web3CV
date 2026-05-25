@@ -73,7 +73,7 @@ const PROJECTS: Project[] = [
     meta: "Founder & Designer, 2017",
     imageRatio: 1024 / 768,
     image:
-      "/about/noisyCurses.png",
+      "/Web3CV/about/noisyCurses.png",
     imageAlt: "Rhythm calm analytics mockup",
   },
   
