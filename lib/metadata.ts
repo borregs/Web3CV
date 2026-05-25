@@ -4,13 +4,13 @@ export const siteConfig = {
   name: "BCS. Miguel Bravo",
   description:
     "Welcome to my webdev portfolio built with Next.js, Tailwind CSS, and TypeScript.",
-  url: "https://localhost:3000",
+  url: "https://borregs.github.io/Web3CV/",
   ogImage: "https://i.imgur.com/NZyaoC2.jpg",
   creator: "@borregs",
   authors: [
     {
       name: "Miguel Bravo",
-      url: "https://localhost:3000",
+      url: "https://borregs.github.io/Web3CV/",
     },
   ],
   keywords: [
@@ -72,11 +72,11 @@ export const baseMetadata: Metadata = {
     creator: siteConfig.creator,
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-icon.png",
+    icon: "https://borregs.github.io/cv/favicon.ico",
+    shortcut: "https://borregs.github.io/cv/favicon.ico",
+    apple: "https://borregs.github.io/cv/favicon.ico",
   },
-  manifest: "/site.webmanifest",
+  manifest: "/Web3CV/site.webmanifest",
 };
 
 export function createMetadata({
