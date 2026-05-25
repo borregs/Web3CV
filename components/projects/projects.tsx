@@ -30,6 +30,7 @@ type Project = {
   imageRatio: number;
   image: string;
   imageAlt: string;
+  link: string;
 };
 
 
@@ -48,7 +49,8 @@ const PROJECTS: Project[] = [
     imageRatio: 752 / 497,
     image:
       "https://afterestudio.com.mx/favicon.png?resize=752x497&vertical=center",
-      imageAlt: "After Industrial design studio",
+    imageAlt: "After Industrial design studio",
+    link: "afterestudio.com.mx",
   },
   {
     id: "break",
@@ -62,6 +64,7 @@ const PROJECTS: Project[] = [
     image:
       "https://cdn.dribbble.com/userupload/24599416/file/original-1ae5075dcd129aebb16bdbca24b41ac7.png?resize=1024x768&vertical=center",
     imageAlt: "Atlas Studio brand and product sprint mockup",
+    link: "afterestudio.com.mx",
   },
   {
     id: "rhythm",
@@ -75,6 +78,7 @@ const PROJECTS: Project[] = [
     image:
       "/Web3CV/about/noisyCurses.png",
     imageAlt: "Rhythm calm analytics mockup",
+    link: "afterestudio.com.mx",
   },
   
   {
@@ -91,6 +95,7 @@ const PROJECTS: Project[] = [
     image:
       "https://cdn.dribbble.com/userupload/30310902/file/original-621e7fe47be9d11ee14544456c693bec.png?resize=1024x768&vertical=center",
     imageAlt: "Fieldnote pocket sized research tool mockup",
+    link: "afterestudio.com.mx",
   },
   {
     id: "talkback",
@@ -104,6 +109,7 @@ const PROJECTS: Project[] = [
     image:
       "https://cdn.dribbble.com/userupload/16560717/file/original-c6f745d50302d66609bfe080f99f5396.png?resize=1024x768&vertical=center",
     imageAlt: "Talkback friendlier AI chat interface mockup",
+    link: "afterestudio.com.mx",
   },
 ];
 
@@ -166,11 +172,20 @@ function ProjectCard({
   index: number;
 }): ReactNode {
   const Icon = project.icon;
+
+  //is external link? so we add target blank
+  const isExternal = project.link.startsWith("http");
+
   return (
     <FadeIn
       delay={Math.min(index * 0.06, 0.3)}
       className="mb-6 break-inside-avoid md:mb-7"
     >
+     <Link
+        href={project.link}
+        target={isExternal ? "_blank" : "_self"}
+        rel={isExternal ? "noopener noreferrer" : undefined}
+        className="block focus:outline-none focus-visible:ring-2 focus-visible:ring-foreground focus-visible:ring-offset-2 rounded-3xl group">
       <article className="project-card flex cursor-pointer flex-col gap-4 rounded-3xl border border-foreground/8 bg-background p-3 sm:p-3.5">
         <header className="flex items-center gap-2.5 px-1 pt-2">
           <span className="border-foreground/10 inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg border bg-background">
@@ -210,6 +225,7 @@ function ProjectCard({
           {project.meta}
         </p>
       </article>
+     </Link>
     </FadeIn>
   );
 }
