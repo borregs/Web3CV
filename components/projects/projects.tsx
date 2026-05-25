@@ -50,7 +50,7 @@ const PROJECTS: Project[] = [
     image:
       "https://afterestudio.com.mx/favicon.png?resize=752x497&vertical=center",
     imageAlt: "After Industrial design studio",
-    link: "afterestudio.com.mx",
+    link: "https://afterestudio.com.mx",
   },
   {
     id: "break",
