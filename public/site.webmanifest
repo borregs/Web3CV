@@ -1,26 +1,26 @@
 {
-  "name": "Your Site Name",
-  "short_name": "Site",
-  "description": "A modern, accessible landing page template built with Next.js, Tailwind CSS, and TypeScript.",
+  "name": "Miguel Bravo | @borregs | CV ",
+  "short_name": "borregs CV",
+  "description": "A modern, reactive, web portafolio.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0066FF",
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "https://borregs.github.io/cv/favicon.ico",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/x-icon"
     },
     {
-      "src": "/icon-512.png",
+      "src": "https://borregs.github.io/cv/favicon.ico",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/x-icon"
     },
     {
-      "src": "/icon-maskable.png",
+      "src": "https://borregs.github.io/cv/favicon.ico",
       "sizes": "512x512",
-      "type": "image/png",
+      "type": "image/x-icon",
       "purpose": "maskable"
     }
   ]

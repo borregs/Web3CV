@@ -21,6 +21,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "afterestudio.com.mx",
       },
+      {
+        protocol: "https",
+        hostname: "borregs.github.io/cv/",
+      },
 
     ],
   },
