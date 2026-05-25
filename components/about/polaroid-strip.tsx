@@ -15,7 +15,7 @@ type Polaroid = {
 
 // 2. Added rotate values for the Framer Motion tilt effect
 const PHOTOS: Polaroid[] = [
-  { src: "/about/pic1.png", alt: "Miguel working on DevOps", rotate: -6 },
+  { src: "/Web3CV/about/pic1.png", alt: "Miguel working on DevOps", rotate: -6 },
   { src: "/about/pic2.jpg", alt: "Server racks", rotate: 4 },
   { src: "/about/pic3.jpg", alt: "Mexicali events", rotate: -3 },
   { src: "/about/pic4.jpg", alt: "Hardware setup", rotate: 5 },
