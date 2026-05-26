@@ -67,9 +67,9 @@ const PROJECTS: Project[] = [
     link: "afterestudio.com.mx",
   },
   {
-    id: "rhythm",
+    id: "Noisy Curses",
       icon: SquareChevronRight ,
-    iconLabel: "Rhythm",
+    iconLabel: "Noisy Curses",
     title: "Noisy Curses. Terminal Media Player",
     description:
       "A lightweight, C-based audio player built entirely for the terminal. By integrating directly with cava for dynamic audio visualization, Noisy-curses brings a high-fidelity, retro-technical aesthetic to your local audio library.",
@@ -78,7 +78,7 @@ const PROJECTS: Project[] = [
     image:
       "/Web3CV/about/noisyCurses.png",
     imageAlt: "Rhythm calm analytics mockup",
-    link: "afterestudio.com.mx",
+    link: "https://github.com/borregs/noisyCurses",
   },
   
   {
