@@ -85,17 +85,17 @@ const PROJECTS: Project[] = [
     id: "tfilaeeh",
           icon: Gamepad2 ,
    
-    iconLabel: "Fieldnote",
+    iconLabel: "The floor is lava",
     title:
-      "A pocket sized research tool for design teams that want to get out of their docs and into the world.",
+      "The Floor is lava and everything else Hurts.",
     description:
-      "Capture quotes, tag patterns, and synthesize themes in one place. The interface stays out of the way so the thinking can happen.",
-    meta: "Design Engineer, 2024",
+      "single level Meatboy clone using Unity3D and a custom sprite extractor for .gba ROMs.",
+    meta: "OneManDreamTeam, 2013",
     imageRatio: 1024 / 768,
     image:
       "https://cdn.dribbble.com/userupload/30310902/file/original-621e7fe47be9d11ee14544456c693bec.png?resize=1024x768&vertical=center",
     imageAlt: "Fieldnote pocket sized research tool mockup",
-    link: "afterestudio.com.mx",
+    link: "https://github.com/borregs/unity3d/tree/master/floorIsLava",
   },
   {
     id: "talkback",
