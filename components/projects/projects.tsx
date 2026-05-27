@@ -62,7 +62,7 @@ const PROJECTS: Project[] = [
     meta: "Product & Brand Designer, 2025",
     imageRatio: 1024 / 768,
     image:
-      "/Web3CV/public/breakmind.png",
+      "/Web3CV/about/breakmind.png",
     imageAlt: "Atlas Studio brand and product sprint mockup",
     link: "afterestudio.com.mx",
   },
