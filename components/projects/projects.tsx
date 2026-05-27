@@ -62,7 +62,7 @@ const PROJECTS: Project[] = [
     meta: "Product & Brand Designer, 2025",
     imageRatio: 1024 / 768,
     image:
-      "https://cdn.dribbble.com/userupload/24599416/file/original-1ae5075dcd129aebb16bdbca24b41ac7.png?resize=1024x768&vertical=center",
+      "/Web3CV/public/breakmind.png",
     imageAlt: "Atlas Studio brand and product sprint mockup",
     link: "afterestudio.com.mx",
   },
