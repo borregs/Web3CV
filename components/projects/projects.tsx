@@ -93,23 +93,23 @@ const PROJECTS: Project[] = [
     meta: "OneManDreamTeam, 2013",
     imageRatio: 1024 / 768,
     image:
-      "https://cdn.dribbble.com/userupload/30310902/file/original-621e7fe47be9d11ee14544456c693bec.png?resize=1024x768&vertical=center",
+      "/Web3CV/about/tfil.png",
     imageAlt: "Fieldnote pocket sized research tool mockup",
     link: "https://github.com/borregs/unity3d/tree/master/floorIsLava",
   },
   {
-    id: "talkback",
+    id: "HFT Market Tools",
     icon: Bot,
-    iconLabel: "Talkback",
-    title: "A friendlier interface for talking to language models.",
+    iconLabel: "HFT Market Tools",
+    title: "A custom interface and addons for binance and kucoin APIs.",
     description:
-      "An exploration of how AI chat could feel less like a terminal and more like a conversation with a curious friend.",
+      "Currently fully supports AI HFT USD/MXN. Experimental options include: AI risk balancer, Volume based sniper and more",
     meta: "Independent Project, 2025",
     imageRatio: 1024 / 768,
     image:
       "https://cdn.dribbble.com/userupload/16560717/file/original-c6f745d50302d66609bfe080f99f5396.png?resize=1024x768&vertical=center",
     imageAlt: "Talkback friendlier AI chat interface mockup",
-    link: "afterestudio.com.mx",
+    link: "./#",
   },
 ];
 
