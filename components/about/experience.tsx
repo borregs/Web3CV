@@ -16,10 +16,10 @@ const ENTRIES: Entry[] = [
   {
     company: "PowerISA",
     role: "MarketingOps Manager",
-    period: "May 2025 - To date",
+    period: "May 2025 - <span class='dtPresent'>To Date</span>",
     slug: "zillow",
     brand: "4D7697"
-  }
+  },
   {
     company: "Binance",
     role: "Blockchain Specialist",
@@ -43,7 +43,7 @@ const ENTRIES: Entry[] = [
   {
     company: "After Design Studio",
     role: "CTO",
-    period: "Sep 2019 – To Date",
+    period: "Sep 2019 – <span class='dtPresent'>To Date</span>",
     slug: "figma",
     brand: "#A259FF",
   },
