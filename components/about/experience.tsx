@@ -16,21 +16,21 @@ const ENTRIES: Entry[] = [
   {
     company: "Binance",
     role: "Blockchain Specialist",
-    period: "Mar 2024 – Present",
+    period: "Dec 2022 – Jun 2023",
     slug: "linear",
     brand: "#5E6AD2",
   },
   {
     company: "Loffa Interactive",
     role: "Software Architecht",
-    period: "Aug 2022 – Feb 2024",
+    period: "Jun 2020 – Feb 2022",
     slug: "vercel",
     brand: "#0a0a0a",
   },
   {
     company: "IGT",
     role: "Casino Technitian",
-    period: "Jun 2021 – Jul 2022",
+    period: "Dec 2017 – Jan 2019",
     slug: "stripe",
     brand: "#635BFF",
   },
@@ -41,28 +41,7 @@ const ENTRIES: Entry[] = [
     slug: "figma",
     brand: "#A259FF",
   },
-  {
-    company: "Notion",
-    role: "Product Designer",
-    period: "Jan 2018 – Aug 2019",
-    slug: "notion",
-    brand: "#111111",
-  },
-  {
-    company: "Airbnb",
-    role: "Design Intern",
-    period: "May 2017 – Dec 2017",
-    slug: "airbnb",
-    brand: "#FF5A5F",
-  },
-  {
-    company: "Freelance",
-    role: "Designer & Developer",
-    period: "2015 – 2017",
-    brand: "#0AE448",
-  },
-];
-
+]
 const COLLAPSED_COUNT = 2.5;
 const ROW_HEIGHT = 64;
 const ROW_GAP = 8;
