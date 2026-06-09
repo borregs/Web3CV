@@ -14,24 +14,30 @@ type Entry = {
 
 const ENTRIES: Entry[] = [
   {
+    company: "PowerISA",
+    role: "MarketingOps Manager",
+    period: "May 2025 - To date",
+    slug: "zillow",
+    brand: "4D7697"
+  }
+  {
     company: "Binance",
     role: "Blockchain Specialist",
     period: "Dec 2022 – Jun 2023",
-    slug: "linear",
+    slug: "binance",
     brand: "#5E6AD2",
   },
   {
     company: "Loffa Interactive",
     role: "Software Architecht",
     period: "Jun 2020 – Feb 2022",
-    slug: "vercel",
     brand: "#0a0a0a",
   },
   {
     company: "IGT",
     role: "Casino Technitian",
     period: "Dec 2017 – Jan 2019",
-    slug: "stripe",
+    slug: "konami",
     brand: "#635BFF",
   },
   {
@@ -167,7 +173,8 @@ function CompanyLogo({ entry }: { entry: Entry }): ReactNode {
         />
       ) : (
         <span className="text-[18px] font-semibold tracking-tight text-white">
-          {initials}
+          <img src="https://loffacorp.com/assets/favicon-D6mmCnmo.svg" width={24} height={24} className="h-6 w-6" 
+          />
         </span>
       )}
     </span>
