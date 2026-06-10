@@ -16,9 +16,9 @@ const ENTRIES: Entry[] = [
   {
     company: "PowerISA",
     role: "MarketingOps Manager",
-    period: "May 2025 - To Date,
+    period: "May 2025 - To Date",
     slug: "zillow",
-    brand: "4D7697"
+    brand: "#4D7697"
   },
   {
     company: "Binance",
