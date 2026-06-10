@@ -64,7 +64,8 @@ const PROJECTS: Project[] = [
     image:
       "/Web3CV/about/breakmind.png",
     imageAlt: "Atlas Studio brand and product sprint mockup",
-    link: "afterestudio.com.mx",
+    link: "https://borregs.github.io/mindbreak-app/",
+    
   },
   {
     id: "Noisy Curses",
