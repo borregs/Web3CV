@@ -173,7 +173,7 @@ function CompanyLogo({ entry }: { entry: Entry }): ReactNode {
         />
       ) : (
         <span className="text-[18px] font-semibold tracking-tight text-white">
-          <img src="https://loffacorp.com/assets/favicon-D6mmCnmo.svg" width={24} height={24} className="h-6 w-6" 
+          <img src="/slugs/loffa.svg" width={24} height={24} className="h-6 w-6" 
           />
         </span>
       )}

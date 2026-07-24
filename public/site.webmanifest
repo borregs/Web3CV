@@ -1,27 +1,21 @@
 {
-  "name": "Miguel Bravo | @borregs | CV ",
+  "name": "Miguel Bravo | @borregs | CV",
   "short_name": "borregs CV",
-  "description": "A modern, reactive, web portafolio.",
+  "description": "A modern, reactive, web portfolio.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0066FF",
   "icons": [
     {
-      "src": "https://borregs.github.io/cv/favicon.ico",
-      "sizes": "192x192",
+      "src": "/favicon.ico",
+      "sizes": "48x48",
       "type": "image/x-icon"
     },
     {
-      "src": "https://borregs.github.io/cv/favicon.ico",
-      "sizes": "512x512",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "https://borregs.github.io/cv/favicon.ico",
-      "sizes": "512x512",
-      "type": "image/x-icon",
-      "purpose": "maskable"
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
     }
   ]
 }

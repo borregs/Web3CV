@@ -12,21 +12,25 @@ const ENTRIES: Entry[] = [
     school: "University of Washington",
     degree: "Computational Protein Design Scientist",
     period: "2016",
+    slug:   "ucw.png",
   },
   {
     school: "Universidad Autonoma de Baja California",
     degree: "Bachelors in Computer Sciences, d.school",
     period: "2013-2017",
+    slug:   "uabc.png"
   },
   {
     school: "Linux Academy",
     degree: "Bootloading with GRUB & Compiler Theory",
     period: "2022",
+    slug:   "la.png",
   },
   {
     school: "Forest Trail Academy",
     degree: "Highschool Diploma",
     period: "2010-2012",
+    slug:   "fta.png",
     },
 ];
 
@@ -75,7 +79,7 @@ function SchoolLogo({ entry }: { entry: Entry }): ReactNode {
     >
       {entry.slug ? (
         <img
-          src={`https://cdn.simpleicons.org/${entry.slug}`}
+          src={`./slugs/${entry.slug}`}
           alt=""
           width={24}
           height={24}
