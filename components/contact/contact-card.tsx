@@ -48,12 +48,12 @@ export function ContactCard(): ReactNode {
                   <SocialIcon
                     href="https://www.linkedin.com/in/mborrego94"
                     label="LinkedIn"
-                    imageSrc="/Web3CV/linkedin.svg"
+                    imageSrc="/linkedin.svg"
                   />
                   <SocialIcon
                     href="https://x.com/mborrego94"
                     label="X"
-                    imageSrc="/Web3CV/x.svg"
+                    imageSrc="/x.svg"
                   />
                 </div>
                 <div className="flex flex-col items-center gap-1 text-center">

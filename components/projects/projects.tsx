@@ -62,7 +62,7 @@ const PROJECTS: Project[] = [
     meta: "Product & Brand Designer, 2025",
     imageRatio: 1024 / 768,
     image:
-      "/Web3CV/about/breakmind.png",
+      "/about/breakmind.png",
     imageAlt: "Atlas Studio brand and product sprint mockup",
     link: "https://borregs.github.io/mindbreak-app/",
     
@@ -77,7 +77,7 @@ const PROJECTS: Project[] = [
     meta: "Founder & Designer, 2017",
     imageRatio: 1024 / 768,
     image:
-      "/Web3CV/about/noisyCurses.png",
+      "/about/noisyCurses.png",
     imageAlt: "Rhythm calm analytics mockup",
     link: "https://github.com/borregs/noisyCurses",
   },
@@ -94,7 +94,7 @@ const PROJECTS: Project[] = [
     meta: "OneManDreamTeam, 2013",
     imageRatio: 1024 / 768,
     image:
-      "/Web3CV/about/tfil.png",
+      "/about/tfil.png",
     imageAlt: "Fieldnote pocket sized research tool mockup",
     link: "https://github.com/borregs/unity3d/tree/master/floorIsLava",
   },

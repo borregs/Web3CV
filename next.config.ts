@@ -3,10 +3,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/Web3CV',
   productionBrowserSourceMaps: false,
-  images: { 
-    unoptimized : true ,
+  images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
@@ -16,16 +15,14 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "cdn.dribbble.com",
       },
-
       {
         protocol: "https",
         hostname: "afterestudio.com.mx",
       },
       {
         protocol: "https",
-        hostname: "borregs.github.io/cv/",
+        hostname: "cv.borregs.qzz.io",
       },
-
     ],
   },
 };
