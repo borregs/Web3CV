@@ -3,5 +3,5 @@ Allow: /
 Disallow: /api/
 Disallow: /private/
 
-Host: https://localhost:3000
-Sitemap: https://localhost:3000/sitemap.xml
+Host: https://cv.borregs.qzz.io
+Sitemap: https://cv.borregs.qzz.io/sitemap.xml

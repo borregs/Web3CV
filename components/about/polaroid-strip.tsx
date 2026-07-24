@@ -15,12 +15,12 @@ type Polaroid = {
 
 // 2. Added rotate values for the Framer Motion tilt effect
 const PHOTOS: Polaroid[] = [
-  { src: "/Web3CV/about/pic1.png", alt: "Miguel working on DevOps", rotate: -6 },
-  { src: "/Web3CV/about/pic2.jpg", alt: "Server racks", rotate: 4 },
-  { src: "/Web3CV/about/pic3.jpg", alt: "Mexicali events", rotate: -3 },
-  { src: "/Web3CV/about/pic4.jpg", alt: "Hardware setup", rotate: 5 },
-  { src: "/Web3CV/about/pic5.jpg", alt: "Coding late", rotate: -5 },
-  { src: "/Web3CV/about/pic6.jpg", alt: "F# pipelines", rotate: 6 },
+  { src: "/about/pic1.png", alt: "Miguel working on DevOps", rotate: -6 },
+  { src: "/about/pic2.jpg", alt: "Server racks", rotate: 4 },
+  { src: "/about/pic3.jpg", alt: "Mexicali events", rotate: -3 },
+  { src: "/about/pic4.jpg", alt: "Hardware setup", rotate: 5 },
+  { src: "/about/pic5.jpg", alt: "Coding late", rotate: -5 },
+  { src: "/about/pic6.jpg", alt: "F# pipelines", rotate: 6 },
 ];
 
 const EASE = [0.22, 1, 0.36, 1] as const;

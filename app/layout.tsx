@@ -2,9 +2,11 @@ import { Nav } from "@/components/layout/nav";
 import { PageBackdrop } from "@/components/layout/page-backdrop";
 import { Providers } from "@/components/layout/providers";
 import { SkipToContent } from "@/components/layout/skip-to-content";
-import { baseMetadata } from "@/lib/metadata";
+import { CookieConsent } from "@/components/consent/cookie-consent";
+import { baseMetadata, siteConfig } from "@/lib/metadata";
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import type { ReactNode } from "react";
 import "./globals.css";
 
@@ -46,6 +48,34 @@ export default function RootLayout({
 }>): ReactNode {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* JSON-LD Structured Data */}
+        <Script
+          id="json-ld-website"
+          type="application/ld+json"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: siteConfig.name,
+              url: siteConfig.url,
+              description: siteConfig.description,
+              author: {
+                "@type": "Person",
+                name: "Miguel Bravo",
+                url: siteConfig.url,
+                jobTitle: "Web Developer",
+                sameAs: [
+                  "https://www.linkedin.com/in/mborrego94",
+                  "https://x.com/mborrego94",
+                  "https://github.com/borregs",
+                ],
+              },
+            }),
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${fraunces.variable} min-h-screen bg-background font-sans text-foreground antialiased`}
       >
@@ -63,6 +93,7 @@ export default function RootLayout({
           <PageBackdrop />
           <Nav />
           {children}
+          <CookieConsent />
         </Providers>
       </body>
     </html>
