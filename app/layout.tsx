@@ -29,7 +29,11 @@ const fraunces = Fraunces({
   display: "swap",
 });
 
-export const metadata: Metadata = baseMetadata;
+export const metadata: Metadata = { ... baseMetadata, 
+  appleWebApp: {
+    title: 'Borregs',
+  },
+};
 
 export const viewport: Viewport = {
   themeColor: [
