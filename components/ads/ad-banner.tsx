@@ -5,7 +5,8 @@ import { useEffect, useRef, type ReactNode } from "react";
 // ─────────────────────────────────────────────────────────────────────────────
 // Replace these placeholders with your real AdSense values
 // ─────────────────────────────────────────────────────────────────────────────
-const ADSENSE_CLIENT = "ca-pub-XXXXXXXXXXXXXXXX"; // your publisher ID
+const ADSENSE_CLIENT = "ca-pub-6597340986290618";
+// Replace these with your real ad slot IDs after creating ad units in AdSense
 const ADSENSE_SLOT_HORIZONTAL = "XXXXXXXXXX"; // horizontal banner slot
 const ADSENSE_SLOT_VERTICAL = "XXXXXXXXXX"; // vertical / sidebar slot
 
